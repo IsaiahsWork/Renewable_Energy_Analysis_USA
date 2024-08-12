@@ -6,7 +6,7 @@ PLU4225: Hass large
 PLU4770: Hass extra large
 
 I downloaded the data from the years 2015 to 2021 on the website
-This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)]([https://www.eia.gov/opendata/]).
+This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/).
 
 
 I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data as we had duplicates like “BaltimoreWashington” and “Baltimore/Washington” so I put all that in one single style. I then uploaded the dataset in my cluster on Databricks and started the analysis

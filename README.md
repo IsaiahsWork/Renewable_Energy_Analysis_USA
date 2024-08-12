@@ -5,13 +5,38 @@ PLU4046: Hass small
 PLU4225: Hass large
 PLU4770: Hass extra large
 
+🔍 SQL queries? Check them out here: project_sql folder
+
 I downloaded the data from the years 2015 to 2021 on the website
 This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/).
 
 
-I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data as we had duplicates like “BaltimoreWashington” and “Baltimore/Washington” so I put all that in one single style. I then uploaded the dataset in my cluster on Databricks and started the analysis
+I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data. i excluded yearrs due to technology having not yet existed yet, to generalize how the US specifically has been interacting with renewable energy so I put all that in one single style. I then uploaded the dataset in my cluster on Power BI and started the visual analysis
+
+```sql
+use DataB
+SELECT Description,YYYYMM,Unit, Value
+FROM PROD
+Where Description = 'Total Renewable Energy Production' and YYYYMM >= 200901 and value < 1;
+```
+```sql
+use DataB
+SELECT Description,YYYYMM,Unit, Value
+FROM PROD
+Where Description = 'Total Renewable Energy Consumption' and YYYYMM >= 200901 and value < 1;
+```
 
 
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+urlp = 'https://raw.githubusercontent.com/IsaiahsWork/Research-Work/main/EDITP.csv'
+urlc = 'https://raw.githubusercontent.com/IsaiahsWork/Research-Work/main/EDITC.csv'
+
+dc = pd.read_csv(urlc)
+dp = pd.read_csv(urlp)
+dp.head()
 
 🔍 SQL queries? Check them out here: project_sql folder
 

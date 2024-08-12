@@ -35,11 +35,9 @@ ORER BY
 ```
 I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data. i excluded yearrs due to technology having not yet existed yet, to generalize how the US specifically has been interacting with renewable energy so I put all that in one single style. I then uploaded the dataset in my cluster on Power BI and started the visual analysis
 
-🔍 SQL queries? Check them out here: project_sql folder
+🔍 
 
 Background
-What states consume the most energy, specifically  renewable? (SQL, Power BI)
-To identify the highest-paying roles, I filtered states by consumption and location, focusing on renewable energy. This query highlights the high paying opportunities in the field.
 
 The questions I wanted to answer through my queries were:
 What states consume the most energy, specifically  renewable? (SQL, Power BI)

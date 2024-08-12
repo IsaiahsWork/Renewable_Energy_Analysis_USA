@@ -1,11 +1,6 @@
-Introdduction
+Introduction
 
-Due to the rise of renewable energy, I was wondering if the price of the avocado, depending on the varieties increased over time and if it has an impact on the total volume sold as well as the volume sold for three different PLU codes:
-PLU4046: Hass small
-PLU4225: Hass large
-PLU4770: Hass extra large
-
-🔍 SQL queries? Check them out here: project_sql folder
+Due to the rise of renewable energy, I was wondering if consumption of this energy, depending on the varieties increased over time and if it has an impact on the total volume sold as well as the volume sold for three different 
 
 I downloaded the data from the years 2015 to 2021 on the website
 This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/).
@@ -51,9 +46,6 @@ What states consume the most energy, specifically  renewable? (SQL, Power BI)
 What states produce the most energy, specifically  renewable? (SQL, Power BI)
 Rate of Regression of the production of Renewable Energy in America? (SQL, Python)
 Rate of Regression of the consumption of Renewable Energy in America? (SQL, Python)
-
-What states consume the most energy, specifically  renewable? (SQL, Power BI)
-To identify the highest-paying roles, I filtered states by consumption and location, focusing on renewable energy. This query highlights the high paying opportunities in the field.
 
 Tools I Used
 For my deep dive into the data analyst job market, I harnessed the power of several key tools:
@@ -141,12 +133,11 @@ plt.ylabel("Quadrillion Btu")
 What I Learned
 Throughout this adventure, I've turbocharged my SQL toolkit with some serious firepower:
 
-🧩 Complex Query Crafting: Mastered the art of advanced SQL, merging tables like a pro and wielding WITH clauses for ninja-level temp table maneuvers.
+Query Crafting: Mastered the art of advanced SQL, merging tables like a pro and wielding WITH clauses for ninja-level temp table maneuvers.
 📊 Data Aggregation: Got cozy with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarizing sidekicks.
 💡 Analytical Wizardry: Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
+
 Conclusions
-Insights
-From the analysis, several general insights emerged:
 
 
-This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
+This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a 

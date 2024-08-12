@@ -1,5 +1,17 @@
 Introdduction
-📊 Dive into the data job market! Focusing on data analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
+
+Due to the rise of renewable energy, I was wondering if the price of the avocado, depending on the varieties increased over time and if it has an impact on the total volume sold as well as the volume sold for three different PLU codes:
+PLU4046: Hass small
+PLU4225: Hass large
+PLU4770: Hass extra large
+
+I downloaded the data from the years 2015 to 2021 on the website
+This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)]([https://www.eia.gov/opendata/]).
+
+
+I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data as we had duplicates like “BaltimoreWashington” and “Baltimore/Washington” so I put all that in one single style. I then uploaded the dataset in my cluster on Databricks and started the analysis
+
+
 
 🔍 SQL queries? Check them out here: project_sql folder
 

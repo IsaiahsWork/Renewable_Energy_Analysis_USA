@@ -1,7 +1,6 @@
 Introduction
 
-Due to the rise of renewable energy, I was wondering if consumption of this energy, depending on the varieties increased over time and if it has an impact on the total volume sold as well as the volume sold for three different 
-
+Due to the rise of renewable energy, I was wondering if consumption of this energy, depending on the varieties increased over time.
 I downloaded the data from the years 2015 to 2021 on the website
 This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/).
 
@@ -33,7 +32,7 @@ WHERE
 ORER BY
 	YYYYMM DESC
 ```
-I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data. i excluded yearrs due to technology having not yet existed yet, to generalize how the US specifically has been interacting with renewable energy so I put all that in one single style. I then uploaded the dataset in my cluster on Power BI and started the visual analysis
+I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data. i excluded yearrs due to technology having not yet existed yet, to generalize how the US specifically has been interacting with renewable energy so I put all that in one single style. I then uploaded the dataset in Power BI and started the visual analysis
 
 🔍 
 
@@ -129,11 +128,9 @@ plt.ylabel("Quadrillion Btu")
 ![download](https://github.com/user-attachments/assets/851f38b9-7fdb-490c-8a29-020cc285fb23)
 
 What I Learned
-Throughout this adventure, I've turbocharged my SQL toolkit with some serious firepower:
-
+Throughout this adventure, I've increased my Power BI toolkit with some serious firepower:
 Query Crafting: Mastered the art of advanced SQL, merging tables like a pro and wielding WITH clauses for ninja-level temp table maneuvers.
-📊 Data Aggregation: Got cozy with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarizing sidekicks.
-💡 Analytical Wizardry: Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
+ Analytical Wizardry: Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
 
 Conclusions
 

@@ -32,7 +32,7 @@ WHERE
 ORER BY
 	YYYYMM DESC
 ```
-I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data. i excluded yearrs due to technology having not yet existed yet, to generalize how the US specifically has been interacting with renewable energy so I put all that in one single style. I then uploaded the dataset in Power BI and started the visual analysis
+I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data. I excluded years due to technology having not yet existed yet, to generalize how the US specifically has been interacting with renewable energy. I then uploaded the dataset in Power BI and started the visual analysis
 
 🔍 
 
@@ -128,11 +128,10 @@ plt.ylabel("Quadrillion Btu")
 ![download](https://github.com/user-attachments/assets/851f38b9-7fdb-490c-8a29-020cc285fb23)
 
 What I Learned
-Throughout this adventure, I've increased my Power BI toolkit with some serious firepower:
-Query Crafting: Mastered the art of advanced SQL, merging tables like a pro and wielding WITH clauses for ninja-level temp table maneuvers.
+Throughout this adventure, I've increased my Python toolkit various libraries:
+Query Crafting: Mastered the art of advanced SQL, merging and filtering tables.
  Analytical Wizardry: Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
 
 Conclusions
 
-
-This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a 
+This project enhanced my SQL and Python skills and provided valuable insights.

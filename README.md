@@ -128,10 +128,5 @@ plt.ylabel("Quadrillion Btu")
 ![download](https://github.com/user-attachments/assets/851f38b9-7fdb-490c-8a29-020cc285fb23)
 
 What I Learned
-Throughout this adventure, I've increased my Python toolkit various libraries:
-Query Crafting: Mastered the art of advanced SQL, merging and filtering tables.
- Analytical Wizardry: Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
-
-Conclusions
-
-This project enhanced my SQL and Python skills and provided valuable insights.
+Throughout this project, I've increased my Python toolkit using various libraries. Mastered the art of advanced SQL, merging and filtering tables.
+ And leveled up my real-world data-solving skills, turning questions and data into actionable, insightful finds.

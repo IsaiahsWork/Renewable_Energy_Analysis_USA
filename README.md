@@ -1,8 +1,29 @@
-Introduction
+Exploring Renewable Energy Trends: A Data-Driven Investigation
+🚗 The Spark: How a Daily Commute Led to a Data-Driven Discovery
+As I drove through my neighborhood, I couldn't help but notice an increasing number of solar panels on rooftops. This made me wonder—has renewable energy consumption truly increased over time, or is this just an isolated trend?
 
-Due to the rise of renewable energy, I was wondering if consumption of this energy, depending on the varieties increased over time.
-I downloaded the data from the years 2015 to 2021 on the website
-This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/).
+With this question in mind, I turned to data. Using publicly available datasets from the U.S. Energy Information Administration (EIA), I set out to analyze trends in renewable energy production and consumption from 2015 to 2021.
+
+📊 Data-Driven Approach: SQL, Python & Power BI
+To uncover key insights, I used:
+
+SQL to extract, filter, and clean data on renewable energy consumption and production.
+Python (pandas, matplotlib, seaborn, scikit-learn) for linear regression modeling to analyze growth trends.
+Power BI to create interactive dashboards showcasing state-wise energy trends.
+I focused on answering:
+✔️ Which states consume the most renewable energy?
+✔️ Which states produce the most renewable energy?
+✔️ How has renewable energy production and consumption changed over time?
+✔️ Are there patterns indicating future growth or decline?
+
+📣 How This Ties into Federal Sustainability Goals
+The federal government is aggressively pushing for a clean energy future, backed by major legislative initiatives:
+✅ The Bipartisan Infrastructure Law – Investing in modernizing energy infrastructure.
+✅ The Build Back Better Act – Funding renewable energy projects.
+✅ The Inflation Reduction Act – Driving $80 billion in private investment in clean energy manufacturing.
+
+With 600,000 federal vehicles transitioning to electric and 300,000 federal buildings adopting clean energy, analyzing these trends is critical for understanding the impact of sustainability efforts.
+
 
 ```sql
 SELECT
@@ -32,27 +53,7 @@ WHERE
 ORER BY
 	YYYYMM DESC
 ```
-I then compiled them in one single sheet and cleaned the data, formatted the cells, and cleaned the region data. I excluded years due to technology having not yet existed yet, to generalize how the US specifically has been interacting with renewable energy. I then uploaded the dataset in Power BI and started the visual analysis
-
-🔍 
-
-Background
-
-The questions I wanted to answer through my queries were:
-What states consume the most energy, specifically  renewable? (SQL, Power BI)
-What states produce the most energy, specifically  renewable? (SQL, Power BI)
-Rate of Regression of the production of Renewable Energy in America? (SQL, Python)
-Rate of Regression of the consumption of Renewable Energy in America? (SQL, Python)
-
-Tools I Used
-For my deep dive into the data analyst job market, I harnessed the power of several key tools:
-
-SQL: The backbone of my analysis, allowing me to query the database and unearth critical insights.
-MySQL: The chosen database management system, ideal for handling the job posting data.
-Visual Studio Code: My go-to for database management and executing python.
-Git & GitHub: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
-
-The Python Linear Regression Analysis
+I consolidated the datasets into a single sheet, ensuring data consistency by cleaning and formatting the entries. To provide a clearer analysis, I excluded years where relevant technology had not yet emerged, allowing for a more accurate representation of the U.S.'s renewable energy trends. Finally, I uploaded the cleaned dataset into Power BI, where I began the visual analysis to uncover key insights.
 
 1. Importing libraries and cleaned tables to Jupyter Notebook for Regression Analysis.
 
@@ -67,7 +68,7 @@ urlc = 'https://raw.githubusercontent.com/IsaiahsWork/Research-Work/main/EDITC.c
 dc = pd.read_csv(urlc)
 dp = pd.read_csv(urlp)
 ```
-1. Importing libraries and cleaned tables to Jupyter Notebook for Regression Analysis.
+2. Extracting Data from DataFrames
 
 ```python
 xc = dc.iloc[:,1].values
@@ -75,6 +76,8 @@ yc = dc.iloc[:,2].values
 xp = dp.iloc[:,1].values
 yp = dp.iloc[:,2].values
 ```
+3. Plotting the Data
+
 ```python
 plt.scatter(xc,yc)
 plt.scatter(xp,yp)
@@ -83,7 +86,7 @@ plt.ylabel("Quadrillion Btu")
 ```
 ![download](https://github.com/user-attachments/assets/6efe4ca8-c63b-46a2-b783-3fba06375fb8)
 
-2. create Visualization of production
+4. Create Visualization of production
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -127,6 +130,19 @@ plt.ylabel("Quadrillion Btu")
 ```
 ![download](https://github.com/user-attachments/assets/851f38b9-7fdb-490c-8a29-020cc285fb23)
 
-What I Learned
-Throughout this project, I've increased my Python toolkit using various libraries. Mastered the art of advanced SQL, merging and filtering tables.
- And leveled up my real-world data-solving skills, turning questions and data into actionable, insightful finds.
+🔍 Key Findings & Insights
+📈 Renewable energy consumption has steadily increased, particularly in states with high solar adoption (e.g., California, Texas).
+📉 Some states still rely heavily on fossil fuels, highlighting gaps in adoption.
+🔄 Production is growing but not at the same rate as consumption, indicating possible future supply chain bottlenecks.
+
+💡 What I Learned
+This project deepened my understanding of:
+✅ SQL for large-scale data extraction and transformation
+✅ Python for trend analysis & predictive modeling
+✅ Power BI for dynamic, interactive visual storytelling
+
+This hands-on experience strengthened my ability to turn raw data into actionable insights—a key skill in the field of data analytics and business intelligence.
+
+Would love to hear your thoughts! 🚀
+I downloaded the data from the years 2015 to 2021 on the website
+This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/).

@@ -1,4 +1,5 @@
 Exploring Renewable Energy Trends: A Data-Driven Investigation
+
 🚗 The Spark: How a Daily Commute Led to a Data-Driven Discovery
 As I drove through my neighborhood, I couldn't help but notice an increasing number of solar panels on rooftops. This made me wonder—has renewable energy consumption truly increased over time, or is this just an isolated trend?
 

@@ -6,21 +6,31 @@ As I drove through my neighborhood, I couldn't help but notice an increasing num
 With this question in mind, I turned to data. Using publicly available datasets from the U.S. Energy Information Administration (EIA), I set out to analyze trends in renewable energy production and consumption from 2015 to 2021.
 
 📊 Data-Driven Approach: SQL, Python & Power BI
+
 To uncover key insights, I used:
 
 SQL to extract, filter, and clean data on renewable energy consumption and production.
 Python (pandas, matplotlib, seaborn, scikit-learn) for linear regression modeling to analyze growth trends.
 Power BI to create interactive dashboards showcasing state-wise energy trends.
+
 I focused on answering:
+
 ✔️ Which states consume the most renewable energy?
+
 ✔️ Which states produce the most renewable energy?
+
 ✔️ How has renewable energy production and consumption changed over time?
+
 ✔️ Are there patterns indicating future growth or decline?
 
 📣 How This Ties into Federal Sustainability Goals
+
 The federal government is aggressively pushing for a clean energy future, backed by major legislative initiatives:
+
 ✅ The Bipartisan Infrastructure Law – Investing in modernizing energy infrastructure.
+
 ✅ The Build Back Better Act – Funding renewable energy projects.
+
 ✅ The Inflation Reduction Act – Driving $80 billion in private investment in clean energy manufacturing.
 
 With 600,000 federal vehicles transitioning to electric and 300,000 federal buildings adopting clean energy, analyzing these trends is critical for understanding the impact of sustainability efforts.
@@ -132,18 +142,26 @@ plt.ylabel("Quadrillion Btu")
 ![download](https://github.com/user-attachments/assets/851f38b9-7fdb-490c-8a29-020cc285fb23)
 
 🔍 Key Findings & Insights
+
 📈 Renewable energy consumption has steadily increased, particularly in states with high solar adoption (e.g., California, Texas).
+
 📉 Some states still rely heavily on fossil fuels, highlighting gaps in adoption.
+
 🔄 Production is growing but not at the same rate as consumption, indicating possible future supply chain bottlenecks.
 
+
 💡 What I Learned
+
 This project deepened my understanding of:
+
 ✅ SQL for large-scale data extraction and transformation
+
 ✅ Python for trend analysis & predictive modeling
+
 ✅ Power BI for dynamic, interactive visual storytelling
 
 This hands-on experience strengthened my ability to turn raw data into actionable insights—a key skill in the field of data analytics and business intelligence.
-
 Would love to hear your thoughts! 🚀
+
 I downloaded the data from the years 2015 to 2021 on the website
 This research was built on using data retrieved from the [U.S. Energy Information Administration (EIA)](https://www.eia.gov/opendata/).
